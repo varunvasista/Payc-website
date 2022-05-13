@@ -1,0 +1,212 @@
+:root {
+  --primaryK: #E93F33;
+  --blackK: #171717;
+  --whiteK: #FFFFFF;
+  --greyK: #646464;
+  --background: #F1F1F1;
+  --pinkBackground: #FAECEB;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  background: #FFFFFF !important;
+  border: 2px solid #B9B1A4 !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--primaryK) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem #e93f333a;
+}
+
+textarea {
+  resize: none !important;
+}
+
+/* adding fonts */
+@font-face {
+  font-family: "poppin";
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "manr";
+  src: url(assets/fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: "manm";
+  src: url(assets/fonts/Manrope-Medium.ttf);
+}
+
+@font-face {
+  font-family: "mans";
+  src: url(assets/fonts/Manrope-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "manb";
+  src: url(assets/fonts/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: "maneb";
+  src: url(assets/fonts/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "mr";
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "mm";
+  src: url(assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ms";
+  src: url(assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "mb";
+  src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "lob";
+  src: url(assets/fonts/Lobster-Regular.ttf);
+}
+
+.btn-primary {
+  background: var(--primaryK);
+  border-radius: 5px;
+  border: 1px solid transparent;
+  height: 48px;
+  font-weight: 600;
+  font: 16px msb;
+  letter-spacing: -0.02em;
+  color: var(--whiteK);
+  transition: .3s ease-in-out;
+}
+
+.btn-primary:hover {
+  border: 1px solid var(--primaryK);
+  background: transparent;
+  color: var(--primaryK);
+}
+
+.darkbg {
+  background-color: #F05E53;
+  padding: 100px 20px;
+}
+
+.greybg {
+  background-color: var(--background);
+}
+
+.accordion-item {
+  margin-bottom: 20px !important;
+  background: #FFFFFF !important;
+  box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06) !important;
+  border-radius: 10px !important;
+  border: 2px solid var(--primaryK);
+  border-top: 2px solid var(--primaryK) !important;
+}
+
+.accordion-item .accordion-button {
+  border-radius: 10px !important;
+  padding: 30px 30px 30px 22px !important;
+}
+
+/* .border-top {
+  border-top: 2px solid var(--primaryK) !important;
+} */
+
+.accordion-button:not(.collapsed) {
+  color: #170F49;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  font-weight: 500;
+  font: 18px manm;
+  line-height: 28px;
+  color: #170F49;
+}
+
+.accordion-body {
+  padding: 0px 1.25rem 10px 1.25rem;
+  font-weight: 400;
+  font: 14px manr;
+  line-height: 30px;
+  color: #6F6C90;
+}
+
+.accordion-button svg {
+  margin-left: auto !important;
+  transition: transform .2s ease-in-out;
+  background-color: var(--whiteK);
+  box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  color: var(--primaryK);
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+}
+
+.accordion-button:not(.collapsed) svg {
+  transform: rotate(0deg);
+  background-color: var(--primaryK);
+  color: var(--whiteK);
+  flex-shrink: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  padding-bottom: 10px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  display: none;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+.padding_5 {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
