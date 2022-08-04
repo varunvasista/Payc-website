@@ -47,21 +47,31 @@ export default function ContactUs() {
                                     <div className={LandingStyle.contacts}>
                                         <h6>Social Media Links</h6>
                                         <div className="d-flex align-items-center">
-                                            <div className={LandingStyle.social}>
-                                                <FaLinkedinIn />
-                                            </div>
-                                            <div className={LandingStyle.social}>
-                                                <FaFacebookF />
-                                            </div>
-                                            <div className={LandingStyle.social}>
-                                                <FaInstagram />
-                                            </div>
-                                            <div className={LandingStyle.social}>
-                                                <FaTwitter />
-                                            </div>
-                                            <div className={LandingStyle.social}>
-                                                <FaTelegramPlane />
-                                            </div>
+                                            <a href="https://www.linkedin.com/company/payc2019/mycompany/">
+                                                <div className={LandingStyle.social}>
+                                                    <FaLinkedinIn />
+                                                </div>
+                                            </a>
+                                            <a href="https://www.facebook.com/PayCapp/">
+                                                <div className={LandingStyle.social}>
+                                                    <FaFacebookF />
+                                                </div>
+                                            </a>
+                                            <a href="https://www.instagram.com/paycapp/">
+                                                <div className={LandingStyle.social}>
+                                                    <FaInstagram />
+                                                </div>
+                                            </a>
+                                            <a href="https://twitter.com/PayCapp">
+                                                <div className={LandingStyle.social}>
+                                                    <FaTwitter />
+                                                </div>
+                                            </a>
+                                            <a href="https://www.payc.io">
+                                                <div className={LandingStyle.social}>
+                                                    <FaTelegramPlane />
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
