@@ -38,7 +38,7 @@ export default function ContactUs() {
                                 <div className="col-lg-5 mb-5">
                                     <div className={LandingStyle.contacts}>
                                         <h6>Prefer Email, You can reach us at</h6>
-                                        <p><MdOutlineMail color={"#E93F33"} /> &nbsp; name@email.com</p>
+                                        <p><MdOutlineMail color={"#E93F33"} /> &nbsp; varun@payc.io</p>
                                     </div>
                                     <div className={LandingStyle.contacts}>
                                         <h6>We are located at</h6>
