@@ -14,8 +14,7 @@ export default function Footer() {
                         </div>
                         <div className={LandingStyle.footer}>
                             <p className={LandingStyle.fp1}>PayC is a single QR code for all your crypto needs.No more complicated, <br /> time-consuming processes—just scan and go! </p>
-                            <p className={LandingStyle.reserved}>Payc Limited. All rights reserved
-                                Developed by Pixel Spider</p>
+                            <p className={LandingStyle.reserved}>Payc Limited. All rights reserved 2022.</p>
                         </div>
                     </div>
                 </div>
